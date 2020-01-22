@@ -1,0 +1,27 @@
+<scroll>
+	<linear orientation="vertical">
+		<linear marginTop="10" marginBottom="10" gravity="center left" action="push chat.xml">
+			<circle width="24" height="24" src="images/a.jpg" margin="15"/>
+			<linear orientation="vertical">
+				<text text="Chat Title"/>
+				<text text="Last chat message here."/>
+			</linear>
+		</linear>
+		<text height="1" background="#EEEEEE"/>
+		<linear marginTop="10" marginBottom="10" gravity="center left" action="push chat.xml">
+			<circle width="24" height="24" src="images/b.jpg" margin="15"/>
+			<linear orientation="vertical">
+				<text text="Chat Title"/>
+				<text text="Last chat message here."/>
+			</linear>
+		</linear>
+		<text height="1" background="#EEEEEE"/>
+		<linear marginTop="10" marginBottom="10" gravity="center left" action="push chat.xml">
+			<circle width="24" height="24" src="images/c.jpg" margin="15"/>
+			<linear orientation="vertical">
+				<text text="Chat Title"/>
+				<text text="Last chat message here."/>
+			</linear>
+		</linear>
+	</linear>
+</scroll>

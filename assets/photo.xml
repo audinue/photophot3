@@ -1,0 +1,30 @@
+<scroll>
+	<linear orientation="vertical">
+		<image src="images/a.jpg" height="200" scale="fill"/>
+		<linear orientation="vertical">
+			<linear gravity="center left" padding="10">
+				<circle src="images/a.jpg" width="20" height="20" marginRight="10"/>
+				<linear orientation="vertical">
+					<text text="User Name"/>
+					<text text="User comment here."/>
+				</linear>
+			</linear>
+			<text height="1" background="#EEEEEE"/>
+			<linear gravity="center left" padding="10">
+				<circle src="images/b.jpg" width="20" height="20" marginRight="10"/>
+				<linear orientation="vertical">
+					<text text="User Name"/>
+					<text text="User comment here."/>
+				</linear>
+			</linear>
+			<text height="1" background="#EEEEEE"/>
+			<linear gravity="center left" padding="10">
+				<circle src="images/c.jpg" width="20" height="20" marginRight="10"/>
+				<linear orientation="vertical">
+					<text text="User Name"/>
+					<text text="User comment here."/>
+				</linear>
+			</linear>
+		</linear>
+	</linear>
+</scroll>

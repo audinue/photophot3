@@ -1,0 +1,28 @@
+<scroll>
+	<linear orientation="vertical" padding="10">
+		<linear marginBottom="10" gravity="center left">
+			<circle src="images/a.jpg" width="60" height="60" marginRight="10"/>
+			<linear orientation="vertical">
+				<text textSize="20" text="User Name"/>
+				<text text="User status here."/>
+			</linear>
+		</linear>
+		<text text="Photos" textSize="12" textColor="#AAAAAA" marginBottom="5"/>
+		<linear orientation="vertical" marginBottom="10">
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/a.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/b.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/c.jpg" action="push photo.xml"/>
+			</linear>
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/d.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/e.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/f.jpg" action="push photo.xml"/>
+			</linear>
+		</linear>
+	</linear>
+</scroll>

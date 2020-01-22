@@ -1,0 +1,11 @@
+<linear orientation="vertical">
+	<linear weight="1" gravity="center">
+		<linear gravity="center">
+			<image src="images/ic_photo_camera_black_48dp.png" width="30" height="30" marginRight="5"/>
+			<text text="PhotoSpot" textSize="30"/>
+		</linear>
+	</linear>
+	<linear weight="1" gravity="center">
+		<button action="push main.xml" text="Login" textSize="16" padding="10" minWidth="0" minHeight="0"/>
+	</linear>
+</linear>

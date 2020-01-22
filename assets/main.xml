@@ -1,0 +1,25 @@
+<linear orientation="vertical">
+	<linear padding="10" gravity="center left">
+		<image src="images/ic_photo_camera_black_48dp.png" width="20" height="20" marginRight="5"/>
+		<text text="PhotoSpot" textSize="20"/>
+	</linear>
+	<frame id="1" weight="1" fragment="home.xml"></frame>
+	<linear>
+		<linear weight="1" orientation="vertical" gravity="center" padding="10" action="replace 1 home.xml">
+			<image width="24" height="24" src="images/ic_home_black_48dp.png"/>
+			<text width="wrap" text="Home"/>
+		</linear>
+		<linear weight="1" orientation="vertical" gravity="center" padding="10" action="replace 1 search.xml">
+			<image width="24" height="24" src="images/ic_search_black_48dp.png"/>
+			<text width="wrap" text="Search"/>
+		</linear>
+		<linear weight="1" orientation="vertical" gravity="center" padding="10" action="replace 1 community.xml">
+			<image width="24" height="24" src="images/ic_chat_black_48dp.png"/>
+			<text width="wrap" text="Community"/>
+		</linear>
+		<linear weight="1" orientation="vertical" gravity="center" padding="10" action="replace 1 profile.xml">
+			<image width="24" height="24" src="images/ic_person_black_48dp.png"/>
+			<text width="wrap" text="Profile"/>
+		</linear>
+	</linear>
+</linear>

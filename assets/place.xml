@@ -1,0 +1,33 @@
+<scroll>
+	<linear orientation="vertical">
+		<image height="200" src="images/a.jpg" scale="fill"/>
+		<linear padding="10" orientation="vertical">
+			<text text="Place Title" textSize="20"/>
+			<text text="Place description."/>
+		</linear>
+		<image height="200" src="images/map.jpg" scale="fill"/>
+		<linear padding="10">
+			<image width="24" height="24" src="images/ic_star_black_48dp.png"/>
+			<image width="24" height="24" src="images/ic_star_black_48dp.png"/>
+			<image width="24" height="24" src="images/ic_star_black_48dp.png"/>
+			<image width="24" height="24" src="images/ic_star_black_48dp.png"/>
+			<image width="24" height="24" src="images/ic_star_border_black_48dp.png"/>
+		</linear>
+		<linear orientation="vertical">
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/a.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/b.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/c.jpg" action="push photo.xml"/>
+			</linear>
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/d.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/e.jpg" action="push photo.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/f.jpg" action="push photo.xml"/>
+			</linear>
+		</linear>
+	</linear>
+</scroll>

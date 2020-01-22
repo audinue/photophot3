@@ -1,0 +1,38 @@
+<scroll>
+	<linear padding="10" orientation="vertical">
+		<text text="Recommended Places" textSize="12" textColor="#AAAAAA" marginBottom="5"/>
+		<linear orientation="vertical" marginBottom="10">
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/a.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/b.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/c.jpg" action="push place.xml"/>
+			</linear>
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/d.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/e.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/f.jpg" action="push place.xml"/>
+			</linear>
+		</linear>
+		<text text="Nearby Places" textSize="12" textColor="#AAAAAA" marginBottom="5"/>
+		<linear orientation="vertical" marginBottom="10">
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/a.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/b.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/c.jpg" action="push place.xml"/>
+			</linear>
+			<linear marginBottom="5">
+				<image width="match" height="60" weight="1" scale="fill" src="images/d.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill" src="images/e.jpg" action="push place.xml"/>
+				<text width="5"/>
+				<image width="match" height="60" weight="1" scale="fill"/>
+			</linear>
+		</linear>
+	</linear>
+</scroll>

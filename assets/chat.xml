@@ -1,0 +1,23 @@
+<linear orientation="vertical">
+	<text text="Chat Title" textSize="20" gravity="center" margin="10"/>
+	<scroll weight="1">
+		<linear orientation="vertical">
+			<linear margin="5" gravity="right">
+				<linear padding="10" background="#CCCCCC" radius="5">
+					<text text="Chat message from me"/>
+					<circle src="images/a.jpg" width="20" height="20" marginLeft="10"/>
+				</linear>
+			</linear>
+			<linear margin="5" gravity="left">
+				<linear padding="10" background="#EEEEEE" radius="5">
+					<circle src="images/b.jpg" width="20" height="20" marginRight="10"/>
+					<text text="Chat message from you."/>
+				</linear>
+			</linear>
+		</linear>
+	</scroll>
+	<linear padding="10">
+		<edit weight="1"/>
+		<button text="Send" minWidth="0" minHeight="0" padding="10"/>
+	</linear>
+</linear>
